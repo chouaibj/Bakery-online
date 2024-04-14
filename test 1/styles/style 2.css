@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+nav .onglets{
+    margin-top: 30px;
+    margin-left: 600px;
+    cursor: pointer;    
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/boulangerie.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+}
+body{
+    background-color: #FFEBCD;  
+}
+section h1{
+  text-decoration: underline;
+}
+#logo{  
+    position:fixed;bottom: 50px;
+    right: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    z-index:1;
+    max-height: 100%;
+    cursor: pointer;
+}
+.section-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-1 .img {
+  background: url(../images/pains.jpg) center/cover;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-2 .img {
+  background: url(../images/fete.jpg) center/cover;
+}
+
+.section-3 {
+  display: grid;
+  grid-template-columns: 50% 50%;;
+  min-height: 600px;
+}
+.section-3 .img {
+  background: url(../images/patisserie.png) center/cover;
+}
+.section-4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-4 .img {
+  background: url(../images/viennoiseries.jfif) center/cover;
+}
+.section-5 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-5 .img {
+  background: url(../images/sucré.jfif) center/cover;
+}
+.section-6 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-6 .img {
+  background: url(../images/sandwich.jpg) center/cover;
+}
+.section-7 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-7 .img {
+  background: url(../images/burger.jpeg) center/cover;
+}
+.section-8 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 600px;
+}
+.section-8 .img {
+  background: url(../images/specialité.jfif) center/cover;
+}
+
+.container{
+  padding: 100px 250px;
+  background: #fff;
+  background: url(../images/background.png) center/cover;
+}
+.container h1{
+  font-family: Georgia, serif;
+  font-size: 45px;
+  color: solid black;
+  background-color: #fff;
+}
+.container p{
+  font-family: helvetica, sans-serif;
+  font-size: 25px;
+  color: solid black;
+  background-color: #fff;
+}
+.container .button{
+  background-color: #663300;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border:none;
+  outline:none;  
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 0px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer h3{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    footer{
+        padding: 30px;
+    }
+  }
